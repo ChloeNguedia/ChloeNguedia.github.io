@@ -42,10 +42,11 @@ src/
 public/
   images/
     projects/
-      sheet-placeholder.svg
-      chat-placeholder.svg
-      checkers-placeholder.svg
-      network-placeholder.svg
+      illustrations.webp
+      bingochat.png
+      jeu-de-dames.webp
+      sheet-happens-creation.svg
+      travelgo.jpg
     profile/README.md
   cv/README.md
   favicon.svg
@@ -65,14 +66,13 @@ Le bouton lune/soleil active les modes sombre et clair. Au premier accès, le th
 ## Assets et liens à compléter
 
 - Exporter le Word fourni en PDF et déposer `public/cv/CV_Chloe_Nguedia.pdf`. Le Word était verrouillé par un autre processus ; aucun PDF n’a été créé. Les boutons de téléchargement nécessitent ce fichier.
-- Remplacer les quatre illustrations temporaires par de vraies captures dans `public/images/projects/`. Elles ne représentent pas des interfaces réelles.
 - Un vrai portrait peut être ajouté dans `public/images/profile/`, puis intégré dans `Hero.jsx`. Il reste facultatif : le site utilise une illustration abstraite.
 - Confirmer le courriel dans `src/data/profile.js` : `nguediachloe@gmail.com` est repris de la référence et n’a pas pu être vérifié dans le Word verrouillé.
 - Ajouter les URL exactes dans les champs `githubUrl` des objets `sheet-happens`, `clavardage`, `dames` et `client-serveur` de `src/data/projects.js`. Les liens GitHub restent masqués si la valeur est `null`.
 - Renseigner `projectUrl` si une démo existe. Sinon, « Voir le projet » ouvre une fiche descriptive avec les informations fournies.
 - Ajouter `og:url` et `og:image` avec des URLs absolues dans `index.html` après choix du domaine et de l’image de partage. Les métadonnées de base sont présentes.
 
-Pour remplacer une capture, modifier `image` et `imageAlt`, puis mettre `imagePlaceholder: false`. Pour ajouter un projet, ajouter un objet de même forme avec un `id` unique.
+La propriété `imagePosition` sélectionne un quadrant de `illustrations.webp`. Pour utiliser une image individuelle comme `jeu-de-dames.webp`, renseigner `image` et `imageAlt` et omettre `imagePosition`. Chaque projet doit avoir un `id` unique.
 
 Les technologies se modifient dans `skills.js`. Elles sont présentées comme des outils explorés en formation et en projets, sans niveau inventé. Les liens personnels sont centralisés dans `profile.js`. Les variables de `global.css` définissent couleurs, espaces, rayons, ombres et largeur maximale. Les polices Google Fonts disposent d’alternatives sans-serif.
 

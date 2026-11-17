@@ -6,7 +6,7 @@ export default function ProjectCard({ project }) {
   const details = useRef(null);
   return (
     <article className="project-card">
-      <div className="project-visual">
+      <div className="project-visual" data-position={project.imagePosition} data-fit={project.imageFit}>
         <img
           src={`${import.meta.env.BASE_URL}${project.image}`}
           alt={t(project.imageAlt)}
@@ -14,7 +14,6 @@ export default function ProjectCard({ project }) {
           width="600"
           height="360"
         />
-        {project.imagePlaceholder && <span>{t("Capture à venir")} </span>}
       </div>
       <div className="project-body">
         <p className="project-type">{t(project.type)}</p>
