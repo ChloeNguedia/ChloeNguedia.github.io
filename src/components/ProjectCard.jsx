@@ -8,6 +8,7 @@ export default function ProjectCard({ project }) {
     <article className="project-card">
       <div className="project-visual">
         <img
+          className={project.imageFit === "technology" ? "project-technology-image" : undefined}
           src={`${import.meta.env.BASE_URL}${project.image}`}
           alt={t(project.imageAlt)}
           loading="lazy"
