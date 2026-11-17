@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import Education from "./components/Education";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import WelcomeDialog from "./components/WelcomeDialog";
 import { usePreferences } from "./context/usePreferences";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
+      <WelcomeDialog />
     </>
   );
 }

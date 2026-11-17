@@ -66,6 +66,11 @@ try {
   await send("Page.enable");
   await send("Page.navigate", { url: "http://127.0.0.1:5173" });
   await pause(1500);
+  if (!(await evaluate("!!document.querySelector('.welcome-dialog[open]')")))
+    throw new Error("Accueil indisponible");
+  await evaluate("document.querySelector('.welcome-dialog button[type=submit]').click()");
+  if (await evaluate("!!document.querySelector('.welcome-dialog[open]')"))
+    throw new Error("L’accueil ne se ferme pas");
   for (const width of [320, 375, 600, 768, 1024, 1440]) {
     await send("Emulation.setDeviceMetricsOverride", {
       width,

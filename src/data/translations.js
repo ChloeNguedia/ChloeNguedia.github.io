@@ -1,5 +1,15 @@
 // Le français reste la source ; toutes les chaînes d’interface ont une version anglaise.
 export const english = {
+  "Bienvenue !": "Welcome!",
+  "Merci de prendre un moment pour découvrir mon univers. Je suis ravie de vous accueillir et vous souhaite une belle visite !":
+    "Thanks for taking a moment to explore my world. I’m glad you’re here and hope you enjoy your visit!",
+  "Êtes-vous ici dans le cadre d’un recrutement ?": "Are you here as part of a hiring process?",
+  "Votre réponse est facultative et reste dans cette fenêtre.":
+    "Your answer is optional and stays in this window.",
+  Oui: "Yes",
+  Non: "No",
+  "Découvrir le portfolio": "Explore the portfolio",
+  "Continuer sans répondre": "Continue without answering",
   "Aller au contenu": "Skip to content",
   Accueil: "Home",
   "À propos": "About",
