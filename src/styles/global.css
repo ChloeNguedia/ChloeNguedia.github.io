@@ -633,6 +633,11 @@ h1 > span {
   aspect-ratio: 5/3;
   object-fit: cover;
 }
+.project-visual .project-technology-image {
+  box-sizing: border-box;
+  padding: 12%;
+  object-fit: contain;
+}
 .project-visual > span {
   position: absolute;
   bottom: 10px;

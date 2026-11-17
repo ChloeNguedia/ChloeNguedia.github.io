@@ -63,6 +63,32 @@ export const english = {
   "À propos du projet": "About the project",
   "Consulter le code sur GitHub": "View code on GitHub",
   "Web · Projet en équipe": "Web · Team project",
+  "Mobile · Projet en équipe":
+    "Mobile · Team project",
+  "Jeu · Prototype":
+    "Game · Prototype",
+  "Logo React":
+    "React logo",
+  "Application de gestion de collections de cartes Pokémon, avec reconnaissance de texte sur les cartes et classement en classeurs virtuels.":
+    "Pokémon card collection app with text recognition and virtual binders.",
+  "Mon travail côté backend porte sur la synchronisation du catalogue avec une API externe et sur l’intégration des données de cartes et de séries avec NestJS et Prisma.":
+    "My backend work focuses on syncing the catalog with an external API and integrating card and set data using NestJS and Prisma.",
+  "Logo Android":
+    "Android logo",
+  "Application Android qui présente le classement de la LNH et permet de le consulter hors connexion ou de l’exporter en JSON.":
+    "Android app that displays NHL standings, with offline access and JSON export.",
+  "J’ai travaillé sur la synchronisation périodique avec WorkManager, le stockage local avec Room, l’export JSON et les notifications Firebase.":
+    "I worked on periodic sync with WorkManager, local storage with Room, JSON export, and Firebase notifications.",
+  "Logo Godot":
+    "Godot logo",
+  "Prototype de jeu en 2D. Stella pilote un vaisseau à altitude fixe et cherche dix étoiles pour sauver son amie.":
+    "2D game prototype. Stella pilots a spacecraft at a fixed altitude and searches for ten stars to save her friend.",
+  "J’ai conçu la boucle de jeu et le niveau spatial, puis travaillé sur le système de santé du joueur et des ennemis en C#.":
+    "I designed the core game loop and the space level, and worked on the player and enemy health system in C#.",
+  "Bureau et mobile · Communication":
+    "Desktop and mobile · Communication",
+  "Messagerie multiplateforme avec une application de bureau Electron et une version mobile réalisée avec React Native et Expo.":
+    "Cross-platform messaging with an Electron desktop app and a mobile version built with React Native and Expo.",
   "Desktop · Communication": "Desktop · Communication",
   "Mobile · Android": "Mobile · Android",
   "Réseaux · Communications": "Networks · Communication",
